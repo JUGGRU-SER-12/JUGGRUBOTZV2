@@ -341,7 +341,7 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, dontAddCommandList: tru
         if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
             return await message.client.sendMessage(
                 message.jid,
-                '```Kurucuyu Block Chat\'e Alamam!```',
+                '```Kurucuyu Block Chat\'e JUGGRU!```',
                 MessageType.text
             );
         }
